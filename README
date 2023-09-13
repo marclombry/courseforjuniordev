@@ -1,0 +1,19 @@
+Prerequisites (none).
+Upon completion of this training, you will be self-sufficient and employable in any company and on any PHP project. You will have a solid understanding of PHP programming basics, functional programming, as well as advanced object-oriented programming concepts. We will cover complex concepts, patterns, and software architecture. Setting up and using GIT and deploying your project will also be addressed. We will explore best practices, testing, and application security together. Docker concepts will be introduced in this training. A list of tools and functional source code will be provided.
+
+You can follow this training in any order you prefer, but I recommend following it sequentially. The training is designed for Windows but can also be followed on Linux or macOS.
+
+Installation and Tools:
+
+Install Visual Studio Code: https://code.visualstudio.com/
+Install Laragon (PHP, MySQL): https://laragon.org/download/index.html
+Install Git (create your GitHub account): https://git-scm.com/ and https://github.com/
+Install Docker: https://www.docker.com/
+Training Modules:
+
+Installation and Tools
+PHP Basics, Procedural Programming
+Functional Programming
+Object-Oriented Programming
+Design Patterns
+Software Architecture

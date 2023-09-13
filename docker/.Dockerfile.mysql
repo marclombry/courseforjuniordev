@@ -1,0 +1,11 @@
+# Use the official MySQL image as the base image
+FROM mysql:latest
+
+# Set environment variables for MySQL (you can customize as needed)
+ENV MYSQL_ROOT_PASSWORD=
+ENV MYSQL_DATABASE=formation
+ENV MYSQL_USER=root
+ENV MYSQL_PASSWORD=
+
+# Expose port 3306 (MySQL)
+EXPOSE 3306
