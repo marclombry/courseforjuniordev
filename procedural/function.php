@@ -35,4 +35,13 @@ $resultMessage = downloadRemoteVideo($videoURL, $localPath);
 echo $resultMessage;
 
 
+$toJson = fn(array $array) => json_encode($array);
+
+$job = $toJson([
+    'City' => 'Paris',
+    'Job' => 'Developper',
+    'Salary' => '120k',
+]);
+
+var_dump($job);
 ?>
