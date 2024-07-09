@@ -1,8 +1,6 @@
 <?php 
 
-// liste d'outils, extension pour php
-
-<?php 
+// list of tools, extension for php
 
 // Composer  https://getcomposer.org/
 
