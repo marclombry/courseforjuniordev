@@ -1,0 +1,142 @@
+:root {
+	--emerald:#2ecc71;/* green */
+	--turquoise:#1abc9c;/* green */ 
+	--peter-river:#3498db;/* blue */
+	--amethyst:#9b59b6;/* purple */
+	--wet-asphalt:#34495e;/* black */
+	--green-sea:#16a085;/* green */
+	--nephritis:#27ae60;/* green */
+	--belize-hole:#2980b9;/* blue */
+	--wisteria:#8e44ad;/* purple */
+	--midnight-blue:#2c3e50;/* black */
+	--sun-flower:#f1c40f;/* yellow */
+	--carrot:#e67e22;/* orange */
+	--alizarin:#e74c3c;/* red */
+	--cloud:#ecf0f1;/* white */
+	--concrete:#95a5a6;/* grey */
+	--orange:#f39c12;/* orange */
+	--pumpkin:#d35400;/* orange */
+	--pomegranate:#c0392b;/* red */
+	--silver:#bdc3c7;/* grey */
+	--asbestos:#7f8c8d;/* grey */
+
+	--flat-flesh:#fad390;/* yellow */
+	--melon-melody:#f8c291;/* beige */
+	--livid:#6a89cc;/* blue */
+	--spray:#82ccdd;/* blue */
+	--paradise-green:#b8e994;/* green */
+	--squash-blossom:#f6b93b;/* yellow */
+	--mandarin-red:#e55039;/* red */
+	--azraq-blue:#4a69bd;/* blue */
+	--dupain:#4a69bd;/* blue */
+	--aurora-green:#78e08f;/* green */
+	--iceland-poppy:#fa983a;/* orange */
+	--tomato-red:#eb2f06;/* red */
+	--yue-guang-lan-blue:#1e3799;/* blue */
+	--good-samaritan:#3c6382;/* blue */
+	--waterfall:#3c6382;/* blue */
+	--carrot-orange:#e58e26;/* orange */
+	--jalapeno-red:#b71540;/* red */
+	--dark-sapphire:#0c2461;/* blue */
+	--forest-blues:#0a3d62;/* blue */
+	--reef-encounter:#079992;/* blue */
+
+	--energos:#C4E538;/* green */
+	--blue-martina:#12CBC4;/* blue */
+	--lavender-rose:#FDA7DF;/* pink */
+	--bara-red:#ED4C67;/* pink */
+	--radiant-yellow:#F79F1F;/* orange */
+	--android-green:#A3CB38;/* green */
+	--mediterranean-sea:#1289A7;/* blue */
+	--lavender-tea:#D980FA;/* pink */
+	--very-berry:#B53471;/* purple */
+	--puffins-bill:#EE5A24;/* orange */
+	--pixelated-grass:#009432;/* green */
+	--merchant-marine-blue:#0652DD;/* blue */
+	--forgotten-purple:#9980FA;/* purple */
+	--hollyhock:#833471;/* purple */
+	--red-piment:#EA2027;/* red */
+	--turkish-aqua:#006266;/* blue */
+	--under-the-sea:#1B1464;/* blue*/
+	--circumorbital-ring:#5758BB;/* purple */
+	--magenta-purple:#6F1E51;/* purple */
+	--dracula-orchid:#2d3436;/*black*/
+
+}
+/*hover */
+.bg-emerald-hover:hover{background-color:var(--emerald);}
+
+/* body*/
+.body-res{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* title */
+.title{font-size:1.875em;font-weight: bold;font-family:  sans-serif;}
+.title-hr{
+	border-bottom: 1px solid var(--silver);
+	padding: 10px; 
+}
+/*opacity*/
+.opacity1{opacity:0.1;}
+.opacity2{opacity:0.2;}
+.opacity3{opacity:0.3;}
+.opacity4{opacity:0.4;}
+.opacity5{opacity:0.5;}
+.opacity6{opacity:0.6;}
+.opacity7{opacity:0.7;}
+.opacity8{opacity:0.8;}
+.opacity9{opacity:0.9;}
+.opacity10{opacity:1;}
+/* width */
+.width100px{width: 100px;}
+.width200px{width: 200px;}
+.width300px{width: 300px;}
+.width400px{width: 400px;}
+.width500px{width: 500px;}
+.width100{width: 100%;}
+.width90{width: 90%;}
+.width80{width: 80%;}
+.width70{width: 70%;}
+.width60{width: 60%;}
+.width50{width: 50%;}
+.width40{width: 40%;}
+.width30{width: 30%;}
+.width25{width: 25%;}
+.width20{width: 20%;}
+.width10{width: 10%;}
+
+/* height */
+.height10px{height: 10px;}
+.height20px{height: 20px;}
+.height30px{height: 30px;}
+.height40px{height: 40px;}
+.height100px{height: 100px;}
+.height200px{height: 200px;}
+.height300px{height: 300px;}
+.height400px{height: 400px;}
+.height500px{height: 500px;}
+.height100{height: 100%;}
+.height90{height: 90%;}
+.height80{height: 80%;}
+.height70{height: 70%;}
+.height60{height: 60%;}
+.height50{height: 50%;}
+.height40{height: 40%;}
+.height30{height: 30%;}
+.height25{height: 25%;}
+.height20{height: 20%;}
+.height10{height: 10%;}
+/* box */
+.box{border:1px solid var(--cloud); box-shadow:2px 2px 2px 2px rgba(195,195,195,0.3);max-width: 400px; }
+.box-content{text-align: justify;padding:10px;overflow: auto;}
+.box-width300{width: 300px;}
+.box-img{width:100%;}
+.box-hover:hover{opacity: .8;}
+
