@@ -1,5 +1,9 @@
 <?php
-
+/**
+ * The chain of responsibility pattern is a behavioral design pattern that allows you to pass a request down a chain of managers. 
+ * Each handler can process the request, forward it to the next handler in the chain, or do nothing. 
+ * This makes it possible to decouple the sender of the request from its possible receivers, making the system more flexible and extensible.
+ */
 abstract class HomeChecker {
     protected $successor;
 

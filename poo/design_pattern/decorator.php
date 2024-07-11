@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * The Decorator pattern is a structural design pattern that allows you to dynamically add behaviors or responsibilities to individual objects
+ * without affecting the behavior of other objects of the same class. It allows additional responsibilities to be attached to an object in a 
+ * flexible manner and is an alternative to subclassing. The Decorator pattern is a structural design pattern that allows behaviors or 
+ * responsibilities to be dynamically added to individual objects without affecting the behavior of other objects of the same class.
+ * It allows additional responsibilities to be attached to an object in a flexible manner and is an alternative to subclassing.
+ */
 class OilChange implements CarService {
     public function __construct(protected CarService $carService)
     {

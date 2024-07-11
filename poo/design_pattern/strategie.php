@@ -1,5 +1,8 @@
 <?php
-
+/**
+ * The Strategy pattern is a behavioral design model that allows you to define a family of algorithms,
+ * encapsulate each of them and make them interchangeable. This allows the algorithm to vary independently of the clients using it.
+ */
 interface Logger {
     public function log($data);
 }

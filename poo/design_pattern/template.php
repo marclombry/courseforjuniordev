@@ -1,5 +1,8 @@
 <?php 
-
+/**
+ * The Template pattern is a behavioral design pattern that allows you to define the skeleton of an algorithm in a method, 
+ * letting subclasses redefine certain steps of this algorithm without changing its overall structure.
+ */
 class Burger 
 {
     public $burger = [];

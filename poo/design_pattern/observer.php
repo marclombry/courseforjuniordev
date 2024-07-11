@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * The Observer pattern is a behavioral design pattern that allows an object (subject) to automatically notify all of its observers
+ *  when its internal state changes. This allows dependent objects (the observers) to automatically update themselves based on 
+ * changes to the subject, 
+ * without the need for direct communication between them.
+ */
 interface Subject
 { // Publisher
     public function attach(Observer $observer);
@@ -18,8 +24,7 @@ class Login implements Subject
 
     public function attach($observable)
     {
-        if (is_array($observable)) 
-        {
+        if (is_array($observable)) {
             return $this->attachObservers($observable);
         }
 
@@ -72,7 +77,8 @@ class EmailNotifier implements Observer
     }
 }
 
-class LoginReporter implements Observer {
+class LoginReporter implements Observer
+{
     public function handle()
     {
         var_dump('fire off an email');

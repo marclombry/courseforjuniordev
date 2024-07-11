@@ -1,4 +1,10 @@
 <?php
+
+/**
+ * The Adapter pattern is a structural design pattern that allows classes with incompatible interfaces to work together. 
+ * The adapter converts a class's interface to one that clients expect, 
+ * thereby allowing classes that would not normally be able to interact to do so.
+ */
 interface PaymentAdapter {
     public function paye();
 }

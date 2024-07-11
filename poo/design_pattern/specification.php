@@ -1,4 +1,9 @@
 <?php 
+/**
+ * The Specification pattern is a design pattern that allows you to define specifications (criteria) as objects and combine them 
+ * to form more complex expressions. 
+ * It is mainly used to represent business rules as reusable and composable objects.
+ */
 class Customer {
     protected $type;
 
