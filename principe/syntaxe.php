@@ -1,8 +1,8 @@
 <?php 
 //PascalCase
-
-//kamelCase
-
+$UserName = 'JohnDoe';
+//camelCase
+$userName = 'JohnDoe';
 //snake_case
-
-//kebab-case
+$user_name = 'JohnDoe';
+//kebab-case (kebab-case is not valid for PHP variables)
