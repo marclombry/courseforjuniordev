@@ -1,0 +1,15 @@
+Liste de Courses pour une Semaine (pour l'analogie)
+Cours en Ligne et Tutoriels
+Inscription à des cours en ligne sur DevOps et CI/CD (Coursera, edX, Udemy)
+Visionnage de tutoriels YouTube sur DevOps et CI/CD (TechWorld with Nana, Kubernetes Academy)
+Outils et Logiciels
+Installation de Docker et Kubernetes
+Installation de Jenkins et GitLab
+Installation de Terraform et Ansible
+Outils de monitoring et de logging (Prometheus, Grafana, ELK Stack)
+Outils de gestion des secrets (HashiCorp Vault)
+Ressources Supplémentaires
+Documentation officielle de Docker, Kubernetes, Jenkins, Terraform
+Blogs sur DevOps (DevOps.com, The New Stack)
+Forums et communautés (Stack Overflow, Reddit)
+Livres sur DevOps et CI/CD (par exemple, "The Phoenix Project", "The DevOps Handbook")
