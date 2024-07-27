@@ -1,0 +1,28 @@
+/* Introduction au CSS */
+
+/* Sélecteur universel */
+* {
+    box-sizing: border-box;
+}
+
+/* Sélecteur de l'élément body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Sélecteur pour les titres de niveau 1 */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Sélecteur pour les paragraphes */
+p {
+    color: #666;
+    line-height: 1.6;
+    padding: 0 20px;
+}

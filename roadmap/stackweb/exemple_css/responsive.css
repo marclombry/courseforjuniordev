@@ -1,0 +1,21 @@
+/* Responsive Design */
+
+/* Style par défaut */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Styles pour les écrans plus larges */
+@media (min-width: 768px) {
+    .container {
+        width: 70%;
+    }
+}
+
+/* Styles pour les écrans très larges */
+@media (min-width: 1200px) {
+    .container {
+        width: 50%;
+    }
+}

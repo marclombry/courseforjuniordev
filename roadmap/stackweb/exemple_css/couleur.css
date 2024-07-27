@@ -1,0 +1,18 @@
+/* Couleurs et Images */
+
+/* Style de fond pour le corps de la page */
+body {
+    background-color: #e0f7fa;
+    color: #333;
+}
+
+/* Couleur de texte pour les titres */
+h1 {
+    color: #00796b;
+}
+
+/* Couleur de fond et bordure pour les images */
+img {
+    border: 5px solid #00796b;
+    border-radius: 10px;
+}

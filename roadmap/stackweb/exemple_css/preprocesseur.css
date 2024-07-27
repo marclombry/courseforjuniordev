@@ -1,0 +1,22 @@
+/* Préprocesseurs CSS */
+
+/* Utilisation des variables CSS */
+:root {
+    --main-color: #4CAF50;
+    --text-color: #ffffff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Utilisation des variables CSS */
+h1 {
+    color: var(--main-color);
+}
+
+p {
+    color: var(--text-color);
+    background-color: var(--main-color);
+    padding: 10px;
+}
